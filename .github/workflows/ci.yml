@@ -17,5 +17,5 @@ jobs:
           go-version-file: go.mod
           cache: true
 
-      - name: Run using test file
-        run: go run main.go test/export.xml
+      - name: Test
+        run: go test
