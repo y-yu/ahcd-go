@@ -32,7 +32,7 @@ var typeRe = regexp.MustCompile(`^HK.*TypeIdentifier(.+)$`)
 var rootCmd = &cobra.Command{
 	Short: "Apple Health Care Data XML file converter to CSV.",
 	Long:  "",
-	Use:   "ahcd [-t <type>] [-d <dir>] <export.xml>",
+	Use:   "ahcd-go [-t <type>] [-d <dir>] <export.xml>",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		target, err := cmd.Flags().GetString("target")
 		if err != nil {

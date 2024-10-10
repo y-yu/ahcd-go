@@ -6,5 +6,5 @@ Apple Health Care Data XML file converter to CSV
 ## How to Use
 
 ```shell
-$ ahcd -d . export.xml
+$ ahcd-go -d . export.xml
 ```
